@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    line-height: 1.3;
+    font-family: Georgia, times new roman, Times, serif;;
+    padding: 50px;
+}
+
+p{
+    font-size: 20px;
+    padding-block: 20px;
+}
+
+.agidigbo-img{
+    background-image: url(./images/agidigbo-center.jpg);
+    padding-block: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+

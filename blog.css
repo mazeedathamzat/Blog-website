@@ -1,0 +1,1225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    line-height: 1.3;
+    font-family: Georgia, times new roman, Times, serif;;
+}
+
+
+
+/* img */
+img{
+    max-inline-size: 100%;
+    background-size: cover;
+}
+
+.Header{
+    padding: 15px;
+}
+
+.page{
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    font-family: 'Open Sans', sans-serif;
+     padding: 15px;
+     backdrop-filter: blur(40px);
+     /* position: fixed; */
+}
+
+.menu-list{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  font-size: 28px;                                                                                                                                                                                                                                                                                                                                                     
+  padding-top: 10px;
+}
+
+.list:hover{
+  color: rgb(159, 159, 67);
+}
+
+.list{
+  font-size: 20px;
+}
+
+.line-2{
+    border: 1px solid rgb(99, 92, 92);
+    margin-top: 20px;
+}
+
+.logo{
+    width: 100px;
+    padding-left: 10px;
+}
+
+.live{
+    margin-top: 10px;
+    list-style: none;
+}
+
+.live-button{
+    display: flex;
+    gap: 3px;
+}
+
+.menu{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+
+.text{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.Minimum-text{
+    line-height: 1.4;
+    padding-top: 20px;
+}
+.President-content{
+    font-family: Helvetica, Arial, sans-serif;
+    margin-block: 25px;
+    line-height: 23px;
+    color: rgb(120, 117, 117);
+    font-size: 20px;
+}
+
+.carkey{
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    margin-top: 45px;
+}
+
+
+.staff-standing{
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    margin-top: 45px;
+}
+
+   
+
+    .second-img-head{
+      margin-top: 30px;
+    }
+    
+    .appreciate{
+        background-repeat: no-repeat;
+        height: 400px;
+        background-size: cover;
+        margin-top: 45px;
+    }
+    
+    .staff-appreciation{
+        background-repeat: no-repeat;
+        height: 500px;
+        background-size: cover;
+        margin-top: 45px;
+    }
+    
+    
+    .staff-frame{
+        background-repeat: no-repeat;
+        height: 500px;
+        background-size: cover;
+        margin-top: 45px;
+    }
+
+    
+    .footer{
+        background-color: gold;
+        width: 100%;
+    }
+    
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+        width: 100%;
+        gap: 50px;
+}
+
+.line-live{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(248, 6, 6);
+    border-radius: 100%;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.top{
+    color: white;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.stories-container{
+    margin: 50px;
+}
+
+li{
+   text-decoration: none;
+   list-style: none;
+   font-size: 16px;
+   font-family:sans-serif;
+   grid-column-gap: 1rem;
+   line-height: 30px;
+}
+
+li:hover{
+    color: white;
+    cursor: pointer;
+    transition: 1s ease-in;
+}
+
+.line{
+    border: 1px solid rgb(202, 196, 196);
+}
+
+.corruption-img{
+    padding-top: 20px;
+}
+
+.img-fluid{
+    padding-top: 20px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+      align-items: center;
+  }
+
+  .court-image{
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .cholera-image{
+    width: 260px;
+    margin-top: 20px;
+    height: 120px;
+  }
+  .supeme-court{
+    gap: 10px;
+
+  }
+
+  .court-text{
+    display: flex;
+    align-items: center;
+    /* font-size: 15px; */
+    /* justify-content: center; */
+  }
+
+h1:hover{
+   color: rgb(187, 178, 16);
+   cursor: pointer;
+}
+
+h4:hover{
+   color: rgb(187, 178, 16);
+   cursor: pointer;
+}
+
+h3:hover{
+   color: rgb(187, 178, 16);
+   cursor: pointer;
+}
+h2:hover{
+   color: rgb(187, 178, 16);
+   cursor: pointer;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+h1{
+  font-size: 25px;
+  /* line-height: 1.8; */
+}
+
+h2{
+    font-weight: 500;
+}
+
+h4{
+    /* margin-top: 15px; */
+}
+  .obis-text{
+    display: flex;
+    align-items: center;
+    /* font-size: 15px; */
+    margin-top: 30px;
+  }
+
+  .hospital-text{
+    display: flex;
+    align-items: center;
+    /* font-size: 15px; */
+  }
+
+  .cholera-text{
+    display: flex;
+    align-items: center;
+    /* font-size: 15px; */
+  }
+
+  .Apps{
+    padding-top: 20px;
+  }
+  .footer-logo{
+      width: 50px;
+      height: 50px;
+      /* padding-top: 20px; */
+      /* margin-block: 50px; */
+  }
+  
+  .River-img{
+    padding-bottom: 10px;
+  }
+  .adamu-apc{
+    /* display: flex; */
+    gap: 10px;
+    padding-top: 20px;
+  }
+
+  .adamu-text{
+    padding-top: 15px;
+   
+  }
+
+  .tinubu-challlenge{
+    padding-top: 20px;
+  }
+
+  .edo-inec{
+    padding-top: 50px;
+  }
+  
+  .straight-line{
+    border: 1px solid rgb(109, 105, 105);
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .Politics-stories{
+    margin-inline: 50px;
+    /* display: flex; */
+  }
+
+  .river-line{
+    border-bottom: 1px solid;
+    margin-top: 20px;
+  }
+
+  .foot-icon{
+       display: flex;
+      margin-left: auto;
+     padding: 40px;
+     color: rgb(255, 255, 255);
+     font-size: 20px;
+      gap: 15px;
+  } 
+
+  .program-based{
+    padding-top: 25px;
+    padding: 50px;
+
+  }
+
+  .education-based{
+    padding: 30px;
+  }
+  .education-based3{
+    padding-inline: 30px;
+  }
+ 
+  .prog-flex{
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    gap: 30px;
+}
+
+  .eni-iyi{
+     background-size: cover;
+  }
+
+  .prog-text{
+    padding: 20px;
+    font-weight: 900;
+    font-size: 25px;
+    border-bottom: 1px solid grey;
+  }
+
+
+  .prog-image{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .prog-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    background-size: cover;
+  }
+ 
+  
+  .technology-based{
+    margin: 50px;
+  }
+
+  .binance-img{
+    width: 250px;
+  }
+  .binance{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  } 
+
+  .pirates-news{
+    padding-top: 40px;
+  }
+ 
+
+  .enter-txt{
+    margin-bottom: 0px;
+    padding-top: 35px;
+  }
+  .congo-img{
+    padding-top: 15px;
+  }
+
+  .davido-txt{
+    padding-top: 10px;
+  }
+
+  .wedd-confirm{
+    padding-top: 15px;
+    padding-bottom: 25px;
+  }
+
+  .burna-txt{
+    padding-top: 10px;
+    padding-bottom: 25px;
+  }
+
+  .menu-icon{
+    padding-top: 10px;
+   font-size: 30px;
+  }
+  
+  .menu-list{
+    display: none;
+  }
+  .kanayo-txt{
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  .donald-txt{
+    padding-top: 10px;
+  }
+
+  .actor-donald{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .dion-txt{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    }
+
+    .nvida-img{
+      margin-top: 20px;
+    }
+
+    .line-flex{
+      padding-bottom: 35px;
+    }
+
+    .Rivers-crisis{
+      margin-top: 20px;
+      margin-bottom: 30px;
+        }
+
+    .pirates-news{
+      margin-top: 20px;
+      margin-bottom: 30px;
+        }
+  .refineries{
+    font-size: 12px;
+    padding-block: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .peaceful{
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+  }
+
+  .more-txt{
+    margin-top: 30px;
+    /* font-size: 22px; */
+  }
+
+  .wages-comment{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .meeting-flex{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  .atiku-verdict{
+    width: 100%;
+  }
+
+  .meeting-organised{
+     /* margin-top: 40px; */
+     /* margin-bottom: 10px; */
+     width: 100%;
+  }
+
+  p{
+    font-size: 18px;
+  }
+
+  .lader-small-pics{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+  }
+
+  h4{
+    font-size: 25px;
+  }
+  h2{
+    font-size: 25px;
+  }
+
+  p{
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+.Minimum-text{
+  font-size: 25px;
+}
+
+  .small-pics{
+    width: 250px;
+    border-radius: 5px;
+  }
+  .supreme-pics{
+    width: 250px;
+    border-radius: 5px;
+  }
+
+  .algon-pics{
+    width: 400px;
+    border-radius: 5px;
+  }
+
+  .naira-pics{
+    width: 140px;
+    border-radius: 5px;
+  }
+
+  .prog-text{
+    font-size: 25px;
+    border-bottom: 1px solid grey;
+    padding-block: 10px;
+  }
+
+  .presidential-cluster{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    margin-block: 50px;
+  }
+
+  .shetima-img{
+    width: 300px;
+  }
+
+  .text-only{
+    padding-block: 50px;
+    border-top: 1px solid grey;
+  }
+  .educate-txt{
+    padding-block: 30px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-top: 40px;
+  }
+
+  .corps-txt{
+    padding-block: 40px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-top: 30px;
+  }
+
+  .educate-text{
+    padding-block: 30px;
+    /* border-top: 1px solid grey; */
+    /* margin-top: 50px; */
+  }
+
+
+  .advertise-txt{
+    color: yellowgreen;
+  }
+  
+  .adverisement-box{
+     width: 300px;
+     height: 300px;
+     background-color: rgb(216, 216, 216);
+  }
+
+  .forex{
+    padding-block: 30px;
+  }
+
+  .business-based{
+    margin-top: 60px;
+  }
+
+  /* .presidential-cluster{
+    flex-direction: column;
+  } */
+
+  .academic-txt{
+    font-size: 20px;
+  }
+
+  .education-prog{
+    margin-top: 60px;
+  }
+
+  
+
+  .environment-program{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 50px;
+  }
+
+  .heading-topic{
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+   
+
+  i{
+    padding-inline: 4px;
+  }
+
+  .iconify{
+    border-bottom: 1px solid rgb(181, 181, 181);
+  }
+
+  .topic{
+  font-size: 35px;
+    padding-left: 45px;
+    padding-bottom: 20px;
+  }
+
+  .forex-img{
+    border-top: 1px solid grey;
+    padding-top: 15px;
+  }
+
+
+  .carlos-champion{
+    margin-top: 30px;
+
+  }
+
+  .sport-based{
+    padding-inline: 50px;
+  }
+
+  .h1-txt{
+    font-size: 20px;
+  }
+  
+  .italys-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin-top: 70px;
+  }
+
+  .sports-img{
+    margin-top: 5px;
+  }
+
+  .sports-champion{
+    margin-top: 30px;
+  }
+
+  .sport-img-4{
+    margin-top: 30px;
+  }
+
+  .main-heading{
+    margin-bottom: 40px;
+  }
+
+  .heading{
+    margin-top: 40px;
+  }
+
+  .fuel{
+    margin-top: 25px;
+  }
+  
+  @media screen and (min-width:320px) {
+    .supeme-court{
+      display: flex;
+      flex-direction: column-reverse;
+      width: 100%;
+    }
+
+    .hospital-image{
+      width: 200px;
+    }
+
+    
+  }
+
+ 
+
+  @media screen and (min-width:600px) {
+   
+  .footer-content{
+      flex-direction: row;
+  }
+}
+ 
+  @media screen and (min-width:800px){
+    .minimum-wages-news{
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+  }
+    .meeting-flex{
+      display: flex;
+      gap: 30px;
+      flex-direction: row;
+    }
+    .atiku-verdict{
+      width: 50%;
+    }
+
+    label{
+      display: none;
+    }
+
+      .menu-icon{
+        display: none;
+      }
+
+      
+      .main-heading{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 50px;
+      }
+  
+      .image-header{
+          display: flex;
+          gap: 35px;
+          padding-top: 25px;
+      }
+      
+    
+      .main{
+          padding-left: 10px;
+      }
+  
+    .page{
+        padding: 20px;
+    }
+    
+    .supeme-court{
+         padding-left: 15px;
+         padding-top: 30px;
+         
+    }
+
+    
+
+    .court-image{
+        width: 151px;
+        margin-top: 4px;
+    }
+
+    .obis-image{
+        width: 200px;
+        height: 80px;
+        border-radius: 10px;
+        margin-top: 4px;
+    }
+
+    .cholera-image{
+        margin-top: 4px;
+    }
+
+    .hospital-image{
+        width: 120px;
+        height: 80px;
+        margin-top: 4px;
+    }
+
+    .update-flex{
+        display: flex;
+        gap: 20px;
+    }
+    
+    .more-stories{
+      border-left: 1px solid grey;
+      padding-inline: 15px;
+      margin-block: 30px;
+    }
+  
+    
+    .second-img-head{
+        display: flex;
+        padding-top: 25px;
+        gap: 35px;
+    }
+    .Politics-stories{
+        display: flex;/
+    }
+
+    .line-2{
+        align-items: center;
+    }
+
+    .Politics-stories{
+        gap: 30px;
+    }
+
+    .tinubu-challlenge{
+        width: 200px;
+    }
+
+    .prog-flex{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(350px, 100%));
+        gap: 20px;
+        margin-inline: auto;
+    }
+
+    .eni-iyi{
+        width: 400px;
+    }
+    .prog-3{
+        padding-bottom: 20px;
+    }
+   
+    
+    .tech-flex{
+        display: flex;
+        gap: 50px;
+    } 
+
+    .binance{
+        width: 1000%;
+    }
+
+    .nvida-congo{
+       margin-top: 0px;
+       padding-top: 0px;
+    }
+     
+    .nvida-img{
+        width: 400px;
+    }
+
+    .congo-img{
+        width: 400px;
+    }
+
+    .kanayo-donald{
+      margin-top: 5px;
+      border-left: 1px solid;
+      padding-inline: 30px;
+    }
+    .entertain-stories{
+      display: flex;
+      gap: 30px;
+    }
+
+    
+    .kanayo-img{
+      width: 330px;
+    }
+
+    .samsung-img{
+      width: 330px;
+    }
+
+    .samaung-txt{
+      width: 320px;
+      padding-block: 10px;
+      font-size: 17px;
+      padding-bottom: 30px;
+    }
+
+    
+    .donald-img{
+      width: 330px;
+      margin-top: 30px;
+    }
+
+    .nvida-congo{
+      margin-top: 1px;
+    }
+
+    .refineries{
+      font-size: 10px;
+      align-items: center;
+      gap: 20px;
+      padding-top: 25px;
+      margin-top: 20px;
+      border-top: 1px solid;
+    }
+
+    .illegal-refineries{
+      /* display: flex; */
+      flex-direction: row-reverse;
+      gap: 20px;
+      margin-top: 20px;
+      border-top: 1px solid grey;
+      padding-block: 30px;
+      align-items: center;
+    }
+
+    .man-illegal-img{
+      width: 200px;
+    }
+
+    .more-txt{
+      margin-top: 40px;
+      border-top: 1px solid;
+      padding-top: 40px;
+    }
+
+    .celine-dion{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-top: 60px;
+      font-size: 17px;
+    }
+
+    .RAPPER{
+      margin-top: 50px;
+    }
+
+    .dion-img{
+      width: 200px;
+    }
+
+   
+
+    .small-img-flex{
+      display: flex;
+      gap: 50px;
+    }
+
+    .business-flex{
+      display: flex;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .Nigerian-Senate{
+      padding-bottom: 50px;
+    }
+
+    .forex-flex{
+      display: flex;
+      gap: 60px;
+    }
+
+    .forex-img{
+      width: 500px;
+    }
+
+    .education-based{
+      display: flex;
+      gap: 10px;
+    }
+
+    .education-based3{
+       display: flex;
+      gap: 10px;
+    }
+
+    .sanu-strike{
+      width: 600px;
+    }
+
+    .strike-left{
+      border-right: 1px solid grey;
+      padding-inline: 15px;
+    }
+
+    .small-img-flex{
+      padding-top: 30px;
+      padding-bottom: 60px;
+    }
+
+
+    .agboola-shetima{
+      border-right: 1px solid grey;
+      padding-inline: 15px;
+    }
+
+    .labour-main-heading{
+      width: 50%;
+      display: none;
+    }
+    .main {
+      width: 100%;
+    }
+    
+
+  }     
+
+
+
+  @media screen and (min-width:1044px) {
+    .prog-flex{
+      display: grid;
+      grid-template-columns: repeat(3, minmax(290px, 500px ));
+      place-items: center;
+  }
+
+  
+
+ .thre-smalll-img{
+  border-left: 1px solid grey;
+  padding-inline: 30px;
+ }
+
+  .small-img-flex{
+    display: flex;
+    gap: 50px;
+  }
+
+  .optimistic-wages{
+    display: none;
+  }
+
+  .minimum-wages-news{
+      display: flex;
+      gap: 40px;
+  }
+
+  .small-img-flex{
+   padding-block: 40px;
+  }
+
+  .supeme-court{
+      flex-direction: row;
+  }
+
+  .obi-tinubu{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding-block: 20px;
+  }
+
+  .text-under{
+    border-left: 1px solid grey;
+    padding-inline: 20px;
+  }
+
+  .stories-update{
+    display: flex;
+    gap: 60px;
+  }
+
+  .latest-stories{
+    border-left: 1px solid grey;
+    padding-inline: 30px;
+  }
+
+  .menu-list{
+    display: flex;
+  }
+
+  .ei-rufai{
+    width: 300px;
+  }
+
+  .rufai-govt{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+  }
+
+  .nvida{
+    display: flex;
+    flex-direction: row-reverse;
+    border-bottom: 1px solid grey;
+    padding-block: 20px;
+    margin-bottom: 30px;
+  }
+
+  .nvida-img{
+    width: 200px;
+  }
+
+  .pirates-news{
+    border-bottom: 1px solid grey;
+    padding-block: 20px;
+  }
+
+  .david-cease{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-block: 50px;
+    gap: 20px;
+    border-bottom: 1px solid grey;
+    padding-block: 20px;
+  }
+
+  .burna-img2{
+    width: 200px;
+  }
+
+  .nvida-congo{
+    border-left: 1px solid grey;
+    padding-inline: 30px;
+  }
+
+  .dr.congo{
+    border-bottom: 1px solid grey;
+
+  }
+
+  .forex-flex{
+    flex-direction: column;
+  }
+
+  .under-business{
+    display: flex;
+    gap: 20px;
+  }
+
+  .education-program{
+    display: flex;
+    gap: 40px;
+    padding: 50px;
+  }
+
+  .education-based{
+    flex-direction: column;
+  }
+
+  
+
+  .senate-quash{
+    border-right: 1px solid grey;
+    padding-inline: 15px;
+  }
+
+  .education-part{
+    flex-direction: row;
+  }
+
+  .sport-flex{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+  }
+
+  .carlos-champion{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .sport-flex2{
+    display: flex;
+    gap: 20px;
+  }
+
+  .sports-img {
+    width: 2000px;
+}
+
+.final-sport{
+  display: flex;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.struck-euro {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+.tinubu{
+  max-width: 100%;
+}
+
+.labour-main-heading{
+  width: 50%;
+  display: block;
+}
+
+
+.main{
+  width: 50%;
+}
+  
+  }
+
+  
+  
